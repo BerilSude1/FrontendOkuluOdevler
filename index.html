@@ -1,0 +1,89 @@
+<!-- Ödev Basit Site Yazımı:
+•	Öğrenciler kendi haklarında bir web sayfası oluşturacaklar.
+•	İçerik:
+o	    Başlık: İsim ve meslek
+o	    Görsel: Profil resmi
+o	    Hakkımda: Kısa bir biyografi
+o	    İlgi Alanları: Listelerle hobiler
+o	    İletişim Bilgileri: E-posta ve sosyal medya bağlantıları
+o	    İletişim Formu: Ad soyad ve textarea olacak
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <Header>
+            <h1>
+                Sude Beril Ünverdi - Bilgisayar Mühendisi
+            </h1>
+                <nav>
+                    <a href="about.html">Hakkımda</a><br> 
+                    <a href="#1">İlgi Alanlarım</a><br>
+                    <a href="#2">İletişim Formu</a><br>
+                    <a href="#footer">İletişim Bilgilerim</a>
+                </nav>
+            <br>
+        </Header>
+        <div>
+            <img width="500" src="img/pp2.jpg" alt="Sude Beril Ünverdi">    
+        </div>
+        <section id="1">
+            <h2>
+                İlgi Alanlarım
+            </h2>
+                <ol>
+                    <li>Filmler</li>  
+                        <ul>
+                            <li>Biyografi</li>
+                            <li>Fantastik</li>
+                            <li>Korku</li>
+                        </ul>
+                    <li>Diziler</li>
+                    <li>Bilgisayar Oyunları</li>
+                        <ul>                                    
+                            <li>FPS Oyunları</li>
+                            <li>RPG</li>
+                        </ul>
+                    <li>Teknoloji</li>
+                    <li>Sanat</li>
+                        <ul>
+                    <li>Resim</li>
+                    <li>Müzik</li>
+                    <li>Tiyatro</li>
+                    <li>Dans</li>
+                        </ul>
+                    <li>Kitaplar</li>
+                </ol>
+        </section><hr>
+            <h2>İletişim Formu</h2>
+                <form id="2"> 
+                <div> 
+                    <label for="name">Ad:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="name" name="name" />
+                </div>
+                <div> 
+                    <label for="surname">Soyad:&nbsp;</label>
+                    <input type="text" id="surname" name="surname" />
+                </div>
+                <div> 
+                    <label for="textarea">Mesaj:&nbsp;</label>
+                    <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+                    <input type="submit">
+                </div>
+        </section>    
+                </form><hr>
+            <h2 id="footer">İletişim Bilgilerim</h2>
+                    <a href="mailto:xxxxxx@gmail.com">Mail Adresim</a><br>
+                    <a href="tel:xxx xx xx">Telefon Numaram</a><br>
+                    <a href="https://www.w3schools.com/html/" target="_blank">
+                        <address>
+                            xxxx Mah. xxx Sit. Kat:x Daire:x
+                        </address>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sude-beril-unverdi/">LinkedIn</a><hr>
+    </body>
+</html>
